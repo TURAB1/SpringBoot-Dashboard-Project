@@ -3,15 +3,12 @@
 <html>
 <head>
     <title>Client List</title>
-    <style>
-        .status-perm { background: gold; padding: 2px 8px; border-radius: 4px; }
-        .status-inactive { background: #ccc; padding: 2px 8px; border-radius: 4px; }
-        .status-lead { background: #5cb85c; padding: 2px 8px; border-radius: 4px; color: #fff; }
-    </style>
+    <link rel="stylesheet" href="assets/css/Home.css"/>
 </head>
 <body>
-    <button onclick="location.href='/addNew'">Add New Client</button>
-    <table border="1" cellspacing="0" cellpadding="5">
+    <button class="btn btn-new" onclick="location.href='/addNew'">Add New Client</button>
+
+    <table border="0" cellspacing="0" cellpadding="5">
         <tr>
             <th>ID</th><th>Name</th><th>Email</th><th>Nationality</th><th>Address</th>
             <th>Degree</th><th>Action</th>
@@ -25,9 +22,10 @@
                 <td>${client.address}</td>
 				<td>${client.degree}</td>
                 <td>
-                    <a href="/view/${client.id}">Details</a>
-                    <a href="/edit/${client.id}">Edit</a>
-                    <a href="/delete/${client.id}">Delete</a>
+                    <a href="/view${client.id}"  class="btn-view">Details</a>
+                    <a href="/edit${client.id}" class="btn-edit">Edit</a>
+                    <a href="/delete/${client.id}" class="btn-delete">Delete</a>
+					
                 </td>
             </tr>
         </c:forEach> 

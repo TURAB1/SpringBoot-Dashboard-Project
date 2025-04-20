@@ -38,13 +38,13 @@ public class HomeController {
         return "redirect:/";
     }
 
-    @GetMapping("/edit/{id}")
+    @GetMapping("/edit{id}")
     public String showEditForm(@PathVariable("id") Integer id, Model model) {
         model.addAttribute("client", clientRepository.findById(id).orElseThrow());
         return "clientForm";
     }
 
-    @GetMapping("/view/{id}")
+    @GetMapping("/view{id}")
     public String viewClient(@PathVariable("id") Integer id, Model model) {
         model.addAttribute("client", clientRepository.findById(id).orElseThrow());
         return "viewClient";

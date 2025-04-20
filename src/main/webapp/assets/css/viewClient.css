@@ -1,0 +1,57 @@
+ 
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .details-container {
+            max-width: 500px;
+        }
+
+        .details-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .details-container p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .status {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .status-perm {
+            background-color: #f0ad4e;
+            color: white;
+        }
+
+        .status-inactive {
+            background-color: #6c757d;
+            color: white;
+        }
+
+        .status-lead {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .btn-back {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+   

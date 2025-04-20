@@ -1,0 +1,86 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .btn-new {
+        background-color: #007bff;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .btn-view {
+        background-color: #007bff;
+    }
+
+    .btn-edit {
+        background-color: #17a2b8;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th	{
+	        padding: 10px;
+	        border-bottom: 0px solid #ddd;
+	        text-align: left;
+			background-color: #6c757d;
+	    }
+
+	td {
+        padding: 10px;
+        border-bottom: 0px solid #ddd;
+        text-align: left;
+    }
+
+    tr:hover {
+        background-color: #f2f2f2;
+    }
+
+    .status {
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .status-perm {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .status-inactive {
+        background-color: #6c757d;
+        color: white;
+    }
+
+    .status-lead {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .action-buttons a {
+        margin-right: 5px;
+        padding: 5px 8px;
+        border-radius: 6px;
+        text-decoration: none;
+        color: white;
+    }
