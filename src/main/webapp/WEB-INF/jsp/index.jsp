@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/Home.css"/>
 </head>
 <body>
+	<h1 class="page-title">Clients Management Dashboard</h1>
     <button class="btn btn-new" onclick="location.href='/addNew'">Add New Client</button>
 
     <table border="0" cellspacing="0" cellpadding="5">
@@ -22,9 +23,9 @@
                 <td>${client.address}</td>
 				<td>${client.degree}</td>
                 <td>
-                    <a href="/view${client.id}"  class="btn-view">Details</a>
-                    <a href="/edit${client.id}" class="btn-edit">Edit</a>
-                    <a href="/delete/${client.id}" class="btn-delete">Delete</a>
+                    <a href="/view${client.id}"  class="btn btn-view">Details</a>
+                    <a href="/edit${client.id}" class="btn btn-edit">Edit</a>
+                    <a href="/delete/${client.id}" class="btn btn-delete">Delete</a>
 					
                 </td>
             </tr>

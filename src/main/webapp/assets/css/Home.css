@@ -3,7 +3,12 @@
         font-family: Arial, sans-serif;
         padding: 20px;
     }
-
+	.page-title {
+	    text-align: center;
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin-bottom: 20px;
+	}
     .btn {
         padding: 8px 12px;
         border: none;
@@ -11,6 +16,7 @@
         color: white;
         text-decoration: none;
         cursor: pointer;
+		
     }
 
     .btn-new {
@@ -21,6 +27,7 @@
 
     .btn-view {
         background-color: #007bff;
+		
     }
 
     .btn-edit {
