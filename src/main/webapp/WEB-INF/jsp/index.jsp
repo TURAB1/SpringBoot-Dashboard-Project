@@ -22,12 +22,15 @@
                 <td>${client.nationality}</td>
                 <td>${client.address}</td>
 				<td>${client.degree}</td>
+				
                 <td>
-                    <a href="/view${client.id}"  class="btn btn-view">Details</a>
+                    <a href="/view${client.id}"  class="btn btn-view">view Client and Comment</a>
                     <a href="/edit${client.id}" class="btn btn-edit">Edit</a>
                     <a href="/delete/${client.id}" class="btn btn-delete">Delete</a>
 					
+					
                 </td>
+				
             </tr>
         </c:forEach> 
     </table>

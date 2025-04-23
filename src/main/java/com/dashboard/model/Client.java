@@ -31,6 +31,15 @@ public class Client {
 	
 	@Column(name="DEGREE")
 	private String degree;
+	
+	public Client() {
+		// TODO Auto-generated constructor stub
+	    
+	}
+	public Client(Integer id) {
+		// TODO Auto-generated constructor stub
+	    this.id=id;
+	}
 
 	public int getId() {
 		return id;
@@ -80,4 +89,5 @@ public class Client {
 		this.degree = degree;
 	}
 	
+
 }

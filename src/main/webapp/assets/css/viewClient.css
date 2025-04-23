@@ -44,7 +44,7 @@
             color: white;
         }
 
-        .btn-back {
+        .btn-back,.btn-comment {
             background-color: #007bff;
             color: white;
             padding: 8px 12px;
@@ -53,5 +53,26 @@
             text-decoration: none;
             display: inline-block;
             margin-top: 20px;
+        }
+        .comment-section{
+           width:400px
+        }
+        .comment-input{
+        
+	        width: 100%; 
+	        padding: 8px;
+        }
+        .comment-display{
+          background: #f9f9f9;
+          padding: 10px 15px;
+          border-radius: 8px; 
+          margin-bottom: 10px;
+        }
+        .post-time{
+           color: #888;
+        }
+        .btn-delete-comment{
+         color:#dc3545;
+         float:right;
         }
    

@@ -37,7 +37,9 @@
     .btn-delete {
         background-color: #dc3545;
     }
-
+	.btn-comment {
+	    background-color: rgb(255, 255, 128);
+	}
     table {
         width: 100%;
         border-collapse: collapse;

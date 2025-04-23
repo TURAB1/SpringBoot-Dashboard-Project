@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 import com.dashboard.model.Client;
 import com.dashboard.repository.ClientRepository;
 
@@ -44,11 +42,7 @@ public class HomeController {
         return "clientForm";
     }
 
-    @GetMapping("/view{id}")
-    public String viewClient(@PathVariable("id") Integer id, Model model) {
-        model.addAttribute("client", clientRepository.findById(id).orElseThrow());
-        return "viewClient";
-    }
+
 
     @GetMapping("/delete/{id}")
     public String deleteClient(@PathVariable("id") Integer id) {
